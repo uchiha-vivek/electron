@@ -1,0 +1,41 @@
+---
+sidebar_position: 6
+---
+
+How to use the command line interface (CLI) commands for Electron Forge
+
+
+### overview
+
+
+Forge's CLI is the main way to run Electron Forge commands. It consists of a thin wrapper for its core API. Configuration for these commands is done through your [Forge configuration](#config) object.
+
+If you want to use the core API programmatically, see the  # [Programming Usage](#pro) section below.
+
+:::note
+Forge's CLI uses comma-separated value strings to pass multiple arguments into a single flag. Depending on your terminal, these comma-separated values may need to be enclosed in quotation marks
+:::
+
+### Installation
+
+
+To use the Forge CLI, install the ```@electron-forge/cli``` module into your project as a devDependency. If you're using the ```create-electron-app``` script, this module will already be installed for you.
+
+```bash
+npm install --save-dev @electron-forge/cli
+```
+
+### BootStrap Commands
+
+These commands help you get started with Forge. If you're just getting started with Electron Forge, we recommend you follow the **Getting Started**  or  **Importing An Existing Project**  guides.
+
+## Init
+
+
+:::note
+We recommend using the ```create-electron-app``` script (which uses this command) to get started rather than running Init directly.
+:::
+
+This command will initialize a new Forge-powered application in the given directory (defaults to ```.```, the current directory).
+
+Please note if you want to use a non-builtin template, it must be installed globally before running the ```init``` command.
