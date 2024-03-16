@@ -8,13 +8,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Electron Js',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Electron Forge',
+   
+  favicon: ' https://www.electronforge.io/~gitbook/image?url=https:%2F%2F2355537583-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LBKK1y7h_XWAtuRJG9X-4037718589%252Ficon%252FzSCYXfXdUPvs7AL9g6NO%252FElectron_Software_Framework_Logo.svg%2520%281%29.png%3Falt=media%26token=325f86f6-2e2a-4d0f-a8c7-b28d4eea56a4&width=32&dpr=1&quality=100&sign=4c7850431bd91ca11cf67244d52019545592c191fde6ffb0eefe9598eb43905d',
 
   // Set the production url of your site here
   // url: 'https://your-docusaurus-site.example.com',
-  url: 'http://localhost:3000/',
+  // url: 'http://localhost:3000/',
+  url:'http://localhost:3000',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
