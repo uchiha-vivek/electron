@@ -101,6 +101,11 @@ const config = {
           }
         ],
       },
+      algolia:{
+        apiKey:'e952669ee9bbf9d3673f02c95c283258',
+        indexName:'electron',
+        appId:'6HV6FXKB6W'
+      },
       // footer: {
       //   style: 'dark',
       //   links: [
